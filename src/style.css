@@ -4,9 +4,62 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: NorseBold;
+    src: url(./Norse-Bold.otf);
+}
 body{
     background-image: url(../images/kitchen.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+nav button{
+    font-size: 0.8rem;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    box-shadow: 1px 1px 3px #808080;
+}
+#home{
+    border-bottom-left-radius: 35px;
+}
+#about{
+    border-bottom-right-radius: 35px;
+}
+#content{
+    margin-top: 50px;
+    text-align: center;
+}
+#content img{
+    border-radius: 35px;
+    width: 270px;
+    height: 270px;
+}
+.container{
+    margin: 50px 10%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+.container h1{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: NorseBold;
+}
+.container p{
+    font-size: 1.5rem;
 }

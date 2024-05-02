@@ -8,10 +8,12 @@ export default function () {
     let p = document.createElement('p');
     p.textContent = 'Here at smooth smoothie we make sure your experience is smooth and regardless of the challenges we always and i mean always deliver';
 
+    let infoDiv = document.createElement('div')
+    infoDiv.classList.add('container')
     let content = document.querySelector('#content');
 
-
+    infoDiv.appendChild(h1);
+    infoDiv.appendChild(p);
     content.appendChild(img);
-    content.appendChild(h1);
-    content.appendChild(p);
+    content.appendChild(infoDiv)
 }

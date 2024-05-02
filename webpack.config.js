@@ -1,5 +1,6 @@
 const path = require('path');
 const htmlWebpackPlugin = require('html-webpack-plugin');
+const { type } = require('os');
 
 module.exports = {
     entry: './src/index.js',
@@ -21,6 +22,10 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource'
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: 'asset/resource'
             }
         ]
