@@ -17,7 +17,20 @@ export default function () {
 
     let contactsP = document.createElement('p');
     contactsP.textContent = 'Reach us at:';
-    contactsP.setAttribute('style','font-size: 2.2rem; color: #ffffff; display: flex; justify-content: flex-start; margin: 0 10%;')
+    contactsP.setAttribute('style','font-size: 2.2rem; color: #ffffff; display: flex; justify-content: flex-start; margin: 0 10%;');
+    let contactsDiv = document.createElement('div');
+    contactsDiv.classList.add('contact-div');
+    let contactNoOne = document.createElement('h1');
+    contactNoOne.textContent = '09074045847';
+    contactNoOne.classList.add('contact-no')
+    contactNoOne.setAttribute('style','border-left: none;')
+    let contactNoTwo = document.createElement('h1');
+    contactNoTwo.textContent = 'mafz060706@gmail.com';
+    contactNoTwo.classList.add('contact-no');
+    contactNoTwo.setAttribute('style','flex: 2;')
+    let contactNoThree = document.createElement('h1');
+    contactNoThree.textContent = '08109205256';
+    contactNoThree.classList.add('contact-no');
 
     body.classList.add('about-bg');
     body.classList.remove('home-bg');
@@ -27,7 +40,11 @@ export default function () {
 
     infoDiv.appendChild(infoDivHeader);
     infoDiv.appendChild(infoDivP);
+    contactsDiv.appendChild(contactNoOne);
+    contactsDiv.appendChild(contactNoTwo);
+    contactsDiv.appendChild(contactNoThree);
     content.appendChild(header);
     content.appendChild(infoDiv);
     content.appendChild(contactsP);
+    content.appendChild(contactsDiv);
 }
