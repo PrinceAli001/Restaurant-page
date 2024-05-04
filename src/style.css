@@ -9,19 +9,19 @@
     src: url(./Norse-Bold.otf);
 }
 body,.home-bg{
-    background-image: url(../images/kitchen.jpg);
+    background-image: url(images/kitchen.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .menu-bg{
-    background-image: url(../images/kitchen2.jpeg);
+    background-image: url(images/kitchen2.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 .about-bg{
-    background-image: url(../images/kitchen4.webp);
+    background-image: url(images/kitchen4.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;

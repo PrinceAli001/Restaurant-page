@@ -1,10 +1,12 @@
+import image from './images/smoothie.webp'
+
 export default function () {
     let header = document.createElement('h1');
     header.textContent = 'Home';
     header.classList.add('header-home');
 
     let img = document.createElement('img');
-    img.src = '../images/smoothie.webp';
+    img.src = image;
 
     let h1 = document.createElement('h1');
     h1.textContent = 'Come wine and dine to feel sublime';
