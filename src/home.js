@@ -1,4 +1,7 @@
 export default function () {
+    let body = document.querySelector('body');
+    let content = document.querySelector('#content');
+
     let header = document.createElement('h1');
     header.textContent = 'Home';
     header.classList.add('header-home');
@@ -14,11 +17,16 @@ export default function () {
 
     let infoDiv = document.createElement('div');
     infoDiv.classList.add('container');
-    let content = document.querySelector('#content');
+
+    body.classList.add('home-bg');
+    body.classList.remove('menu-bg');
+    body.classList.remove('about-bg');
+
+    content.textContent = '';
 
     infoDiv.appendChild(h1);
     infoDiv.appendChild(p);
-    content.appendChild(header)
+    content.appendChild(header);
     content.appendChild(img);
     content.appendChild(infoDiv);
 }

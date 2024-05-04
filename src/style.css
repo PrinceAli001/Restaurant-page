@@ -8,8 +8,20 @@
     font-family: NorseBold;
     src: url(./Norse-Bold.otf);
 }
-body{
+body,.home-bg{
     background-image: url(../images/kitchen.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.menu-bg{
+    background-image: url(../images/kitchen2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.about-bg{
+    background-image: url(../images/kitchen4.webp);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -26,15 +38,27 @@ nav{
 nav button{
     font-size: 0.8rem;
     padding: 15px 25px;
-    background-color: #ffffff;
-    border: 1px solid #000000;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff;
     box-shadow: 1px 1px 3px #808080;
+    color: #ffffff;
 }
 #home{
     border-bottom-left-radius: 35px;
 }
 #about{
     border-bottom-right-radius: 35px;
+}
+.header-home{
+    margin: 0 auto 50px auto;
+    background-color: none;
+    width: fit-content;
+    padding: 20px 50px;
+    border: 2px solid #ffffff;
+    border-top: none;
+    border-bottom: none;
+    color: #ffffff;
+    font-family: NorseBold,sans-serif;
 }
 #content{
     margin-top: 50px;
@@ -58,8 +82,13 @@ nav button{
 .container h1{
     font-size: 3rem;
     font-weight: 600;
-    font-family: NorseBold;
+    font-family: NorseBold,sans-serif;
 }
 .container p{
     font-size: 1.5rem;
+}
+.open-tab{
+    background-image: linear-gradient(90deg,#000000,rgba(255,255,255,0.3),rgba(255,255,255,0.3),rgba(255,255,255,0.3),#000000);
+    border-color: 1px solid #000000;
+    color: #000000;
 }
