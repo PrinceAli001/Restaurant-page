@@ -10,7 +10,7 @@ export default function () {
     infoDiv.classList.add('container');
     infoDiv.setAttribute('style','border-left: none; border-right: none; border-top: 10px solid #ffffff; border-bottom: 10px solid #ffffff; border-bottom-left-radius: 0; border-top-right-radius: 0;');
     let infoDivHeader = document.createElement('h1');
-    infoDivHeader.textContent = `You're definitely gonna spend more than a dime, but it will certainly be worth your time`;
+    infoDivHeader.textContent = `YOU'RE DEFINETILY GONNA SPEND MORE THAN A DIME, BUT IT WILL CERTAINLY BE WORTH YOUR TIME`;
     infoDivHeader.setAttribute('style','font-size: 2rem;');
     let infoDivP = document.createElement('p');
     infoDivP.textContent = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error molestiae in obcaecati eaque voluptatum doloremque molestias tenetur cum praesentium doloribus amet soluta placeat labore, blanditiis quidem, nostrum illum. Dicta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error molestiae in obcaecati eaque voluptatum doloremque molestias tenetur cum praesentium doloribus amet soluta placeat labore, blanditiis quidem, nostrum illum. Dicta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error molestiae in obcaecati eaque voluptatum doloremque molestias tenetur cum praesentium doloribus amet soluta placeat labore, blanditiis quidem, nostrum illum. Dicta.';
