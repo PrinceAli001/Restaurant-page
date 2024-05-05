@@ -9,6 +9,7 @@
     src: url(./Norse-Bold.otf);
 }
 body,.home-bg{
+    overflow-y: hidden;
     background-image: url(images/kitchen.jpg);
     background-position: center;
     background-size: cover;
